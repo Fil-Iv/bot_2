@@ -4,7 +4,7 @@ from aiogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 from aiogram.enums import ParseMode
 from aiogram.client.default import DefaultBotProperties
 
-API_TOKEN = '7956362362:AAF28BTDCVTh-Qu9sdEVGmB9hv7h8c2n3O0'
+API_TOKEN = ''
 
 
 bot = Bot(
@@ -52,4 +52,5 @@ async def main():
     await dp.start_polling(bot)
 
 if __name__ == "__main__":
+
     asyncio.run(main())
